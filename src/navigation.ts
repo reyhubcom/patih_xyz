@@ -3,22 +3,22 @@ import { getPermalink, getBlogPermalink, getAsset } from './utils/permalinks';
 export const headerData = {
   links: [
     {
-      text: 'Homes',
+      text: 'Staking',
       links: [
         {
-          text: 'SaaS',
+          text: 'Bitcoin Staking',
           href: getPermalink('/homes/saas'),
         },
         {
-          text: 'Startup',
+          text: 'Stake [ ETH ]',
           href: getPermalink('/homes/startup'),
         },
         {
-          text: 'Mobile App',
+          text: 'Stake [ MON ]',
           href: getPermalink('/homes/mobile-app'),
         },
         {
-          text: 'Personal',
+          text: 'Stake [ SOL ]',
           href: getPermalink('/homes/personal'),
         },
       ],
@@ -115,7 +115,7 @@ export const headerData = {
       href: '#',
     },
   ],
-  actions: [{ text: 'Download', href: 'https://github.com/arthelokyo/astrowind', target: '_blank' }],
+  actions: [{ text: 'EXCHANGE', href: 'https://github.com/', target: '_blank' }],
 };
 
 export const footerData = {
@@ -177,6 +177,6 @@ export const footerData = {
     { ariaLabel: 'Github', icon: 'tabler:brand-github', href: 'https://github.com/' },
   ],
   footNote: `
-    Made by <a class="text-blue-600 underline dark:text-muted" href="#"> Arthelokyo</a> · 2026 Patih.xyz All Rights Reserved.
+    Made by <a class="text-blue-600 underline dark:text-muted" href="#"> Rey</a> · 2026 Patih.xyz All Rights Reserved.
   `,
 };
