@@ -60,7 +60,7 @@ export const headerData = {
       text: 'Lending',
       links: [
         {
-          text: 'Lead Generation',
+          text: 'Lend & Borrow',
           href: getPermalink('/home/lending'),
         },
         {
@@ -86,11 +86,11 @@ export const headerData = {
       ],
     },
     {
-      text: 'Blog',
+      text: 'Protocols',
       links: [
         {
           text: 'Blog List',
-          href: getBlogPermalink(),
+          href: getPermalink(),
         },
         {
           text: 'Article',
