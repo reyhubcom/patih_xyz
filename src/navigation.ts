@@ -15,7 +15,7 @@ export const headerData = {
         },
         {
           text: 'Stake [ MON ]',
-          href: getPermalink('/staking/monad'),
+          href: getPermalink('/monad/mon.1'),
         },
         {
           text: 'Stake [ SOL ]',
