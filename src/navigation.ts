@@ -15,7 +15,7 @@ export const headerData = {
         },
         {
           text: 'Stake [ MON ]',
-          href: getPermalink('/homes/mobile-app'),
+          href: getPermalink('/staking/monad'),
         },
         {
           text: 'Stake [ SOL ]',
