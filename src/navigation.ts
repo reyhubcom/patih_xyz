@@ -27,8 +27,8 @@ export const headerData = {
       text: 'Products',
       links: [
         {
-          text: 'Features (Anchor Link)',
-          href: getPermalink('/#features'),
+          text: 'MEME Coin',
+          href: getPermalink('/home/meme'),
         },
         {
           text: 'Services',
