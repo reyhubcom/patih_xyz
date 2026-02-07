@@ -24,7 +24,7 @@ export const headerData = {
       ],
     },
     {
-      text: 'Product',
+      text: 'Products',
       links: [
         {
           text: 'Features (Anchor Link)',
@@ -57,11 +57,11 @@ export const headerData = {
       ],
     },
     {
-      text: 'Landing',
+      text: 'Lending',
       links: [
         {
           text: 'Lead Generation',
-          href: getPermalink('/landing/lead-generation'),
+          href: getPermalink('/home/lending'),
         },
         {
           text: 'Long-form Sales',
