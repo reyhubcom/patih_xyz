@@ -121,15 +121,15 @@ export const headerData = {
 export const footerData = {
   links: [
     {
-      title: 'Product',
+      title: 'Start Staking',
       links: [
-        { text: 'Features', href: '#' },
-        { text: 'Security', href: '#' },
-        { text: 'Team', href: '#' },
-        { text: 'Enterprise', href: '#' },
-        { text: 'Customer stories', href: '#' },
-        { text: 'Pricing', href: '#' },
-        { text: 'Resources', href: '#' },
+        { text: 'Stake [ SUI ]', href: '#' },
+        { text: 'Stake [ SEI ]', href: '#' },
+        { text: 'Stake [ AKASH ]', href: '#' },
+        { text: 'Stake [ OSMO ]', href: '#' },
+        { text: 'Stake [ ATOM ]', href: '#' },
+        { text: 'Stake [ BNB ]', href: '#' },
+        { text: 'All Validators', href: '#' },
       ],
     },
     {
