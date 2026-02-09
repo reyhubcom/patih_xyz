@@ -86,15 +86,15 @@ export const headerData = {
       ],
     },
     {
-      text: 'Protocols',
+      text: 'Category',
       links: [
         {
-          text: 'Blog List',
+          text: 'Spot Trading',
           href: getPermalink(),
         },
         {
-          text: 'Article',
-          href: getPermalink('get-started-website-with-astro-tailwind-css', 'post'),
+          text: 'Perp Trading',
+          href: getPermalink('/home/perp'),
         },
         {
           text: 'Article (with MDX)',
