@@ -31,8 +31,8 @@ export const headerData = {
           href: getPermalink('/home/meme'),
         },
         {
-          text: 'Trading',
-          href: getPermalink('/home/trading'),
+          text: 'Trading Yield',
+          href: getPermalink('/home/tradingyield'),
         },
         
       ],
