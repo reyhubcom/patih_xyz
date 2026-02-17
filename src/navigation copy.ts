@@ -7,19 +7,19 @@ export const headerData = {
       links: [
         {
           text: 'Bitcoin Staking',
-          href: getPermalink('/bitcoin/btc.1'),
+          href: getPermalink('/homes/saas'),
         },
         {
-          text: 'Stake [ ETH ]',
-          href: getPermalink('/ethereum/eth.1'),
+          text: 'Startup',
+          href: getPermalink('/homes/startup'),
         },
         {
-          text: 'Stake [ MON ]',
-          href: getPermalink('/monad/mon.1'),
+          text: 'Mobile App',
+          href: getPermalink('/homes/mobile-app'),
         },
         {
-          text: 'Stake [ SOL ]',
-          href: getPermalink('/solana/sol.1'),
+          text: 'Personal',
+          href: getPermalink('/homes/personal'),
         },
       ],
     },
@@ -29,10 +29,6 @@ export const headerData = {
         {
           text: 'MEME Coin',
           href: getPermalink('/home/meme'),
-        },
-        {
-          text: 'Bridge Coins',
-          href: getPermalink('/home/bridge'),
         },
         
       ],
@@ -48,17 +44,28 @@ export const headerData = {
       ],
     },
     {
-      text: 'Category',
+      text: 'Blog',
       links: [
         {
-          text: 'Spot Trading',
-          href: getPermalink(),
+          text: 'Blog List',
+          href: getBlogPermalink(),
         },
         {
-          text: 'Perp Trading',
-          href: getPermalink('/home/perp'),
+          text: 'Article',
+          href: getPermalink('get-started-website-with-astro-tailwind-css', 'post'),
         },
-        
+        {
+          text: 'Article (with MDX)',
+          href: getPermalink('markdown-elements-demo-post', 'post'),
+        },
+        {
+          text: 'Category Page',
+          href: getPermalink('tutorials', 'category'),
+        },
+        {
+          text: 'Tag Page',
+          href: getPermalink('astro', 'tag'),
+        },
       ],
     },
     {
@@ -72,15 +79,15 @@ export const headerData = {
 export const footerData = {
   links: [
     {
-      title: 'Start Staking',
+      title: 'Product',
       links: [
-        { text: 'Stake [ SUI ]', href: '#' },
-        { text: 'Stake [ SEI ]', href: '#' },
-        { text: 'Stake [ AKASH ]', href: '#' },
-        { text: 'Stake [ OSMO ]', href: '#' },
-        { text: 'Stake [ ATOM ]', href: '#' },
-        { text: 'Stake [ BNB ]', href: '#' },
-        { text: 'All Validators', href: '#' },
+        { text: 'Features', href: '#' },
+        { text: 'Security', href: '#' },
+        { text: 'Team', href: '#' },
+        { text: 'Enterprise', href: '#' },
+        { text: 'Customer stories', href: '#' },
+        { text: 'Pricing', href: '#' },
+        { text: 'Resources', href: '#' },
       ],
     },
     {
@@ -125,9 +132,9 @@ export const footerData = {
     { ariaLabel: 'Instagram', icon: 'tabler:brand-instagram', href: '#' },
     { ariaLabel: 'Facebook', icon: 'tabler:brand-facebook', href: '#' },
     { ariaLabel: 'RSS', icon: 'tabler:rss', href: getAsset('/rss.xml') },
-    { ariaLabel: 'Github', icon: 'tabler:brand-github', href: 'https://github.com/' },
+    { ariaLabel: 'Github', icon: 'tabler:brand-github', href: 'https://github.com/arthelokyo/astrowind' },
   ],
   footNote: `
-    Made by <a class="text-blue-600 underline dark:text-muted" href="#"> Rey</a> · 2026 Patih.xyz All Rights Reserved.
+    Made by <a class="text-blue-600 underline dark:text-muted" href="#"> Rey</a> · 2026 Tutul.xyz All Rights Reserved.
   `,
 };

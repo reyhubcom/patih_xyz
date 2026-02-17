@@ -7,18 +7,18 @@ export const headerData = {
       links: [
         {
           text: 'Bitcoin Staking',
-          href: getPermalink('/homes/saas'),
+          href: getPermalink('/bitcoin/btc.1'),
         },
         {
-          text: 'Startup',
+          text: 'Stake [ ETH ]',
           href: getPermalink('/homes/startup'),
         },
         {
-          text: 'Mobile App',
+          text: 'Stake [ MON ]',
           href: getPermalink('/homes/mobile-app'),
         },
         {
-          text: 'Personal',
+          text: 'Stake [ SOL ]',
           href: getPermalink('/homes/personal'),
         },
       ],
