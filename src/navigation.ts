@@ -70,7 +70,7 @@ export const headerData = {
         },
         {
           text: 'Monad',
-          href: getPermalink('#'),
+          href: getPermalink('/home/monyield'),
         },
         
       ],
