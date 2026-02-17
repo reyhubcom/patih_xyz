@@ -11,15 +11,15 @@ export const headerData = {
         },
         {
           text: 'Stake [ ETH ]',
-          href: getPermalink('/homes/startup'),
+          href: getPermalink('/ethereum/eth.1'),
         },
         {
           text: 'Stake [ MON ]',
-          href: getPermalink('/homes/mobile-app'),
+          href: getPermalink('/monad/mon.1'),
         },
         {
           text: 'Stake [ SOL ]',
-          href: getPermalink('/homes/personal'),
+          href: getPermalink('/solana/sol.1'),
         },
       ],
     },
