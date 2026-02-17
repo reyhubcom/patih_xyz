@@ -62,7 +62,7 @@ export const headerData = {
       ],
     },
     {
-      text: 'Widgets',
+      text: 'Protocols',
       href: '#',
     },
   ],
