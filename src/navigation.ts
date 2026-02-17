@@ -62,20 +62,9 @@ export const headerData = {
       ],
     },
     {
-      text: 'Protocols',
-      links: [
-        {
-          text: 'Ethereum',
-          href: getPermalink("#"),
-        },
-        {
-          text: 'Monad',
-          href: getPermalink('/home/monyield'),
-        },
-        
-      ],
+      text: 'Widgets',
+      href: '#',
     },
-    
   ],
   actions: [{ text: 'EXCHANGE', href: '/home/exchange', target: '' }],
 };
