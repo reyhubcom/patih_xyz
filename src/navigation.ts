@@ -48,11 +48,11 @@ export const headerData = {
       links: [
         {
           text: 'Ethereum',
-          href: getPermalink(' '),
+          href: getPermalink('/protocol/eth '),
         },
         {
           text: 'Monad',
-          href: getPermalink('/protocol/monad'),
+          href: getPermalink('/protocol/mon'),
         },
         {
           text: 'Solana',
