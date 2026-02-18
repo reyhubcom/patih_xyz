@@ -56,15 +56,15 @@ export const headerData = {
         },
         {
           text: 'Solana',
-          href: getPermalink('markdown-elements-demo-post', 'post'),
+          href: getPermalink('#'),
         },
         {
           text: 'Binance',
-          href: getPermalink('tutorials', 'category'),
+          href: getPermalink('#'),
         },
         {
           text: 'All Chains',
-          href: getPermalink('astro', 'tag'),
+          href: getPermalink('#'),
         },
       ],
     },
