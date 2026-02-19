@@ -70,7 +70,7 @@ const metadata = {
       </Fragment>
    <Fragment slot="subtitle">
       <span class="hidden sm:inline">
-        <span class="font-semibold">Key </span> Key Components of Cross-Blockchain Technology
+        <span class="font-semibold">Key </span>  Components of Cross-Blockchain Technology
         </span
        
       >
@@ -80,14 +80,36 @@ const metadata = {
    <!-- TradingView Widget BEGIN -->
 <div class="tradingview-widget-container">
   <div class="tradingview-widget-container__widget"></div>
-  <div class="tradingview-widget-copyright"><a href="https://www.tradingview.com/symbols/BTCUSD/?exchange=COINBASE" rel="noopener nofollow" target="_blank"><span class="blue-text"></span></a><span class="trademark"> </span></div>
-  <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-single-quote.js" async>
+  <div class="tradingview-widget-copyright"><a href="https://www.tradingview.com/markets/" rel="noopener nofollow" target="_blank"><span class="blue-text"></span></a><span class="trademark"> </span></div>
+  <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-tickers.js" async>
   {
-  "symbol": "COINBASE:BTCUSD",
+  "symbols": [
+    {
+      "proName": "BITSTAMP:BTCUSD",
+      "title": "Bitcoin"
+    },
+    {
+      "proName": "BITSTAMP:ETHUSD",
+      "title": "Ethereum"
+    },
+    {
+      "proName": "COINBASE:MONUSD",
+      "title": ""
+    },
+    {
+      "proName": "COINBASE:SOLUSD",
+      "title": ""
+    },
+    {
+      "proName": "CAPITALCOM:BNBUSD",
+      "title": ""
+    }
+  ],
   "colorTheme": "dark",
-  "isTransparent": true,
   "locale": "en",
-  "width": "100%"
+  "largeChartUrl": "",
+  "isTransparent": true,
+  "showSymbolLogo": true
 }
   </script>
 </div>
