@@ -64,7 +64,7 @@ export const headerData = {
         },
         {
           text: 'All Chains',
-          href: getPermalink('#'),
+          href: getPermalink('/allchain/cross'),
         },
       ],
     },
