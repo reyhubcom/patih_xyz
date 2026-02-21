@@ -32,7 +32,7 @@ export const headerData = {
         },
          {
           text: 'Mint Coin',
-          href: getPermalink('/home/meme'),
+          href: getPermalink('/mint/sol.1'),
         },
         
       ],
