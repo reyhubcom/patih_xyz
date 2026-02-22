@@ -30,9 +30,10 @@ export const headerData = {
           text: 'MEME Coin',
           href: getPermalink('/home/meme'),
         },
-         {
-          text: 'Mint Coin',
-          href: getPermalink('/mint/sol.1'),
+         
+        {
+          text: 'Bridge Coin',
+          href: getPermalink('/home/bridge'),
         },
         
       ],
