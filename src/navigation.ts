@@ -35,6 +35,10 @@ export const headerData = {
           text: 'Bridge Coin',
           href: getPermalink('/home/bridge'),
         },
+         {
+          text: 'Mint Coin',
+          href: getPermalink('/home/mint'),
+        },
         
       ],
     },
