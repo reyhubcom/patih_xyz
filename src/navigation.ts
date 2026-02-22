@@ -67,10 +67,7 @@ export const headerData = {
           text: 'Solana',
           href: getPermalink('#'),
         },
-        {
-          text: 'Binance',
-          href: getPermalink('#'),
-        },
+        
         {
           text: 'All Chains',
           href: getPermalink('/allchain/cross'),
