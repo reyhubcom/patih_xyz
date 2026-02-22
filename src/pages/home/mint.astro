@@ -14,7 +14,7 @@ import Brands from '~/components/widgets/Brands.astro';
 import { YouTube } from 'astro-embed';
 
 const metadata = {
-  title: 'Solana Staking',
+  title: 'Minted Coins',
 };
 ---
 
@@ -66,7 +66,7 @@ const metadata = {
     <Fragment slot="title">
        <span class="hidden sm:inline"></span>  <span
         class="text-accent dark:text-white"></span
-      > Solana Staking
+      > Minted Coins
       </Fragment>
    <Fragment slot="subtitle">
       <span class="hidden sm:inline">
@@ -80,14 +80,28 @@ const metadata = {
    <!-- TradingView Widget BEGIN -->
 <div class="tradingview-widget-container">
   <div class="tradingview-widget-container__widget"></div>
-  <div class="tradingview-widget-copyright"><a href="https://www.tradingview.com/symbols/SOLUSD/?exchange=COINBASE" rel="noopener nofollow" target="_blank"><span class="blue-text"></span></a><span class="trademark"> </span></div>
-  <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-single-quote.js" async>
+  <div class="tradingview-widget-copyright"><a href="https://www.tradingview.com/markets/" rel="noopener nofollow" target="_blank"><span class="blue-text"></span></a><span class="trademark"> </span></div>
+  <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-tickers.js" async>
   {
-  "symbol": "COINBASE:SOLUSD",
+  "symbols": [
+    {
+      "proName": "COINBASE:MONUSD",
+      "title": ""
+    },
+    {
+      "proName": "COINBASE:SOLUSD",
+      "title": ""
+    },
+    {
+      "proName": "BINANCE:BNBUSD",
+      "title": ""
+    }
+  ],
   "colorTheme": "dark",
-  "isTransparent": true,
   "locale": "en",
-  "width": "100%"
+  "largeChartUrl": "",
+  "isTransparent": true,
+  "showSymbolLogo": true
 }
   </script>
 </div>
@@ -105,8 +119,8 @@ const metadata = {
   <!-- Features2 Widget ************** -->
 
   <Features2
-    title="Stake Your Solana, Earn Reward"
-    subtitle="Staking Solana (SOL) is the process of locking up SOL tokens to support the security, validation, and consensus mechanism of the Solana blockchain, typically earning annual rewards of 5-7%. By delegating tokens to validators, users help secure the network while retaining control of their assets."
+    title="Key Aspects of Minted Coins"
+    subtitle="Minted coins are official metal currency or bullion produced by a authorized government agency (a mint) using high-pressure stamping, featuring sharp designs and, often, a mint mark designating its place of manufacture. They represent guaranteed quality, weight, and metal content, distinct from mint condition (perfect condition)."
   >
    
   </Features2>
