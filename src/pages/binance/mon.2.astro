@@ -1,0 +1,112 @@
+---
+import Layout from '~/layouts/PageLayout.astro';
+
+import Hero from '~/components/widgets/Hero.astro';
+import CallToAction from '~/components/widgets/CallToAction.astro';
+
+import Features2 from '~/components/widgets/Features2.astro';
+import Features from '~/components/widgets/Features.astro';
+import Stats from '~/components/widgets/Stats.astro';
+import Features3 from '~/components/widgets/Features3.astro';
+import FAQs from '~/components/widgets/FAQs.astro';
+import Brands from '~/components/widgets/Brands.astro';
+
+import { YouTube } from 'astro-embed';
+
+const metadata = {
+  title: 'Monad Staking',
+};
+---
+
+<Layout metadata={metadata}>
+ <script type='text/javascript' src='https://platform-api.sharethis.com/js/sharethis.js#property=69869f959f2c494e4434ec76&product=sop' async='async'></script>
+  <!-- Hero Widget ******************* -->
+
+  <Hero
+    tagline=""
+     actions={[
+      {
+        variant: 'secondary',
+        target: '_blank',
+        text: 'Atlantis',
+        href: 'https://app.atlantisdex.xyz/earn/',
+        icon: 'tabler:link',
+      },
+      {
+        variant: 'secondary',
+        target: '_blank',
+        text: 'Lemonad',
+        href: 'https://www.lemonad.one/vault',
+        icon: 'tabler:link',
+      },
+       {
+        variant: 'secondary',
+        target: '_blank',
+        text: 'Gmonads',
+        href: 'https://gmonads.com/',
+        icon: 'tabler:link',
+      },
+       {
+        variant: 'secondary',
+        target: '_blank',
+        text: 'Atomic',
+        href: 'https://atomicwallet.io/',
+        icon: 'tabler:link',
+      },
+       {
+        variant: 'secondary',
+        target: '',
+        text: 'Staking',
+        href: '/monad/mon.1',
+        icon: 'tabler:circle-arrow-up-right',
+      },
+       
+    ]}
+  >
+    <Fragment slot="title">
+       <span class="hidden sm:inline"></span>  <span
+        class="text-accent dark:text-white"></span
+      > Monad Staking
+      </Fragment>
+   <Fragment slot="subtitle">
+      <span class="hidden sm:inline">
+        <span class="font-semibold">DeFi </span> Liquidity Protocol on Monad
+        </span
+       
+      >
+</Fragment>
+
+    <Fragment slot="subtitle">
+    <script defer src="https://www.livecoinwatch.com/static/lcw-widget.js"></script> <div class="livecoinwatch-widget-5" lcw-base="USD" lcw-color-tx="#0693e3" lcw-marquee-1="coins" lcw-marquee-2="movers" lcw-marquee-items="30" ></div>
+
+ <script src="https://unpkg.com/@lottiefiles/dotlottie-wc@0.7.1/dist/dotlottie-wc.js" type="module"></script>
+<dotlottie-wc src="https://lottie.host/6e0188fe-9c4c-417e-ba39-9c39262649a3/uUDPFNsBcM.lottie" speed="0.5" style="width: 100%; height: 500px" mode="forward" loop autoplay></dotlottie-wc>
+    </Fragment>
+
+    <Fragment slot="image">
+      
+    </Fragment>
+  </Hero>
+
+  <!-- Features2 Widget ************** -->
+
+  <Features2
+    title="Stake Your Monad, Earn Reward"
+    subtitle="Monad staking is the process of locking up MON tokens to secure the high-performance, Proof-of-Stake Monad blockchain. By delegating tokens to validators, users earn rewards—comprising inflationary block rewards and user-paid priority fees—while maintaining self-custody. The system utilizes a delegated Proof-of-Stake (dPoS) model with a top 200 validator set and an unbonding period of roughly 1-2 days."
+  >
+   
+  </Features2>
+
+  <!-- Stats Widget ****************** -->
+</Hero>
+
+  <!-- Note Widget ******************* -->
+<script>
+  (function(){var w=window;if(w.ChannelIO){return w.console.error("ChannelIO script included twice.");}var ch=function(){ch.c(arguments);};ch.q=[];ch.c=function(args){ch.q.push(args);};w.ChannelIO=ch;function l(){if(w.ChannelIOInitialized){return;}w.ChannelIOInitialized=true;var s=document.createElement("script");s.type="text/javascript";s.async=true;s.src="https://cdn.channel.io/plugin/ch-plugin-web.js";var x=document.getElementsByTagName("script")[0];if(x.parentNode){x.parentNode.insertBefore(s,x);}}if(document.readyState==="complete"){l();}else{w.addEventListener("DOMContentLoaded",l);w.addEventListener("load",l);}})();
+
+  ChannelIO('boot', {
+    "pluginKey": "d411df23-8647-4330-83fb-06b07bf8c114"
+  });
+</script>
+  
+</Layout>
