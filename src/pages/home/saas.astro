@@ -1,0 +1,198 @@
+---
+import Layout from '~/layouts/PageLayout.astro';
+
+import Header from '~/components/widgets/Header.astro';
+import Hero2 from '~/components/widgets/Hero2.astro';
+import Features from '~/components/widgets/Features.astro';
+import Steps2 from '~/components/widgets/Steps2.astro';
+import Content from '~/components/widgets/Content.astro';
+
+
+import { headerData } from '~/navigation';
+import FAQs from '~/components/widgets/FAQs.astro';
+import BlogLatestPosts from '~/components/widgets/BlogLatestPosts.astro';
+import Pricing from '~/components/widgets/Pricing.astro';
+const metadata = {
+  title: 'Bitcoin Staking',
+};
+---
+
+<Layout metadata={metadata}>
+    <script type='text/javascript' src='https://platform-api.sharethis.com/js/sharethis.js#property=69d302fcd7d2035cace73de9&product=sop' async='async'></script>
+  <Fragment slot="header">
+    <Header
+      {...headerData}
+      actions={[
+        {
+          variant: 'secondary',
+          text: 'EXCHANGE',
+          href: '#',
+        },
+        {
+          variant: 'primary',
+          text: 'Stake BTC',
+          href: '#',
+        },
+      ]}
+      isSticky
+    />
+  </Fragment>
+
+  <!-- Hero2 Widget ******************* -->
+
+  <Hero2
+    tagline=""
+    actions={[
+      { variant: 'primary', target: '_blank', text: 'Stake BTC', href: 'https://github.com/arthelokyo/astrowind' },
+      { text: 'EXCHANGE', href: '#features' },
+       { text: 'Bridge BTC', href: '#features' },
+    ]}
+    image={{
+      src: 'https://image2url.com/r2/default/images/1775524776761-65fbc5ea-b410-41d7-9a77-a543b85a0ef2.png',
+      alt: 'AstroWind Hero Image',
+    }}
+  >
+    <Fragment slot="title">
+      <!-- TradingView Widget BEGIN -->
+<div class="tradingview-widget-container">
+  <div class="tradingview-widget-container__widget"></div>
+  <div class="tradingview-widget-copyright"><a href="https://www.tradingview.com/markets/" rel="noopener nofollow" target="_blank"><span class="blue-text"></span></a><span class="trademark"> </span></div>
+  <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-market-overview.js" async>
+  {
+  "colorTheme": "dark",
+  "dateRange": "1D",
+  "locale": "en",
+  "largeChartUrl": "",
+  "isTransparent": true,
+  "showFloatingTooltip": false,
+  "plotLineColorGrowing": "rgba(41, 98, 255, 1)",
+  "plotLineColorFalling": "rgba(41, 98, 255, 1)",
+  "gridLineColor": "rgba(240, 243, 250, 0)",
+  "scaleFontColor": "#DBDBDB",
+  "belowLineFillColorGrowing": "rgba(41, 98, 255, 0.12)",
+  "belowLineFillColorFalling": "rgba(41, 98, 255, 0.12)",
+  "belowLineFillColorGrowingBottom": "rgba(41, 98, 255, 0)",
+  "belowLineFillColorFallingBottom": "rgba(41, 98, 255, 0)",
+  "symbolActiveColor": "rgba(41, 98, 255, 0.12)",
+  "tabs": [
+    {
+      "title": "Bitcoin Staking",
+      "symbols": [
+        {
+          "s": "COINBASE:BTCUSD",
+          "d": "",
+          "base-currency-logoid": "crypto/XTVCBTC",
+          "currency-logoid": "country/US"
+        }
+      ],
+      "originalTitle": "Indices"
+    }
+  ],
+  "support_host": "https://www.tradingview.com",
+  "backgroundColor": "#0f0f0f",
+  "width": "100%",
+  "height": "130",
+  "showSymbolLogo": true,
+  "showChart": false
+}
+  </script>
+</div>
+<!-- TradingView Widget END -->
+      What <br /> is <span class="text-accent dark:text-white">Bitcoin</span> Staking?<br
+      />
+    </Fragment>
+
+    <Fragment slot="subtitle">
+      <span class="hidden sm:inline">
+        The main benefit of Bitcoin <span class="font-semibold"> staking is that it increases </span>Bitcoin's utility, allowing your.</span
+      >
+     Bitcoin assets to play an active role in securing various PoS ecosystems while generating extra rewards.
+    </Fragment>
+  </Hero2>
+
+  <!-- Features Widget *************** -->
+
+  <Features
+    id="features"
+    title="Learn more about staking"
+    subtitle="Choose Ponco as your node operator and experience unparalleled professionalism, security, and support."
+    columns={2}
+    items={[
+      {
+        title: 'What is Staking?',
+        description:
+          'Staking allows you to lock your assets on a blockchain to support the network security. By delegating to operators like Stakely, your staked assets help verify transactions and maintain the blockchain active. In return, you earn staking rewards.',
+        icon: 'tabler:layers-union',
+      },
+      {
+        title: 'How Does Staking Work?',
+        description: `When you stake your assets, you are essentially "delegating" them to a validator or node operator like Stakely. These validators verify transactions and add them to the blockchain. In return for providing this service, they earn rewards, which are shared with the delegators.`,
+        icon: 'tabler:artboard',
+      },
+      {
+        title: 'What is Validator?',
+        description:
+          'Validators play a pivotal role in Proof-of-Stake networks, validating transactions and upholding network integrity. Choosing us means trusting a verified staking provider with a proven track record of reliability and professionalism.',
+        icon: 'tabler:writing',
+      },
+      {
+        title: 'Where do Staking Rewards Come From?',
+        description:
+          'Staking rewards are typically generated from two sources: 1) Transaction fees: network users pay fees for transactions, which are distributed as rewards. 2) Inflation: some blockchain networks create new tokens to distribute as staking rewards. This incentivizes participation and ensures network security.',
+        icon: 'tabler:layers-union',
+      },
+      {
+        title: 'What the risks associated with staking?',
+        description: `WWhile staking can be highly rewarding, it does have risks including network failures, system hacks, and market volatility. To mitigate potential slashing risks, Stakely offers a comprehensive Staking Insurance Program to protect your investments and provide peace of mind.`,
+        icon: 'tabler:artboard',
+      },
+      {
+        title: 'How can i start staking with ponco?',
+        description:
+          'Getting started is easy! Our platform guides you through the staking process step by step, helping you make informed decisions with educational tutorials and blog articles. You can also reach out to our support team for personalized assistance..',
+        icon: 'tabler:writing',
+      },
+    ]}
+  />
+
+  <!-- Content Widget **************** -->
+
+  <Content
+    title="Deep dive on BTC staking"
+    subtitle="By staking your Bitcoin with ponco, you can put your assets to work, receive rewards, and actively contribute to the growth and security of the Bitcoin ecosystem."
+    isReversed
+    items={[
+      {
+        title: 'Description:',
+        description:
+          'Since Bitcoin operates on a PoW mechanism rather than PoS, innovative mechanisms, similar to Ethereums Eigenlayer restaking, enable Bitcoin to participate indirectly in the security of other chains.',
+      },
+      {
+        title: 'Benefits:',
+        description: `At Ponco, we've handpicked the most promising projects and are working on integrations with leading custodians to support our institutional customers.`,
+      },
+    ]}
+    image={{
+      src: 'https://image2url.com/r2/bucket3/images/1775956175369-988e71e9-6711-44aa-ab04-05fe0ad49e45.png',
+      alt: 'Startup Image',
+    }}
+  >
+    <Fragment slot="content">
+      <h3 class="text-2xl font-bold tracking-tight dark:text-white sm:text-3xl mb-2">
+        Optimize rewards opportunities <br /><span class="text-2xl">Increase Bitcoin’s utility</span>
+      </h3>
+    </Fragment>
+
+    <Fragment slot="bg">
+      <div class="absolute inset-0 bg-blue-50 dark:bg-transparent"></div>
+    </Fragment>
+  </Content>
+
+  <script>
+  (function(){var w=window;if(w.ChannelIO){return w.console.error("ChannelIO script included twice.");}var ch=function(){ch.c(arguments);};ch.q=[];ch.c=function(args){ch.q.push(args);};w.ChannelIO=ch;function l(){if(w.ChannelIOInitialized){return;}w.ChannelIOInitialized=true;var s=document.createElement("script");s.type="text/javascript";s.async=true;s.src="https://cdn.channel.io/plugin/ch-plugin-web.js";var x=document.getElementsByTagName("script")[0];if(x.parentNode){x.parentNode.insertBefore(s,x);}}if(document.readyState==="complete"){l();}else{w.addEventListener("DOMContentLoaded",l);w.addEventListener("load",l);}})();
+
+  ChannelIO('boot', {
+    "pluginKey": "8a67e6c5-0e1b-40a0-b6d2-1ee69d143d1b"
+  });
+</script>
+</Layout>
