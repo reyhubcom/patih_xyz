@@ -76,7 +76,7 @@ export const headerData = {
     },
     {
       text: 'Wallet',
-      href: '#',
+      href: '/home/BUY',
     },
   ],
   actions: [{ text: 'EXCHANGE', href: '/home/exchange', target: '' }],
