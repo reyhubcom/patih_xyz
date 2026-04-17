@@ -19,7 +19,7 @@ export const headerData = {
         },
         {
           text: 'Stake [ SOL ]',
-          href: getPermalink('/solana/sol.1'),
+          href: getPermalink('/home/solana'),
         },
       ],
     },
