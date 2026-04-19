@@ -65,7 +65,7 @@ export const headerData = {
         },
         {
           text: 'Solana',
-          href: getPermalink('#'),
+          href: getPermalink('/protocol/sol'),
         },
         
         {
