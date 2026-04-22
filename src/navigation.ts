@@ -60,8 +60,8 @@ export const headerData = {
           href: getPermalink('/protocol/eth '),
         },
         {
-          text: 'Monad',
-          href: getPermalink('/protocol/mon'),
+          text: 'Binance',
+          href: getPermalink('/protocol/bnb'),
         },
         {
           text: 'Solana',
