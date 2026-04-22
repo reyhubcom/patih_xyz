@@ -14,7 +14,7 @@ import Brands from '~/components/widgets/Brands.astro';
 import { YouTube } from 'astro-embed';
 
 const metadata = {
-  title: 'Monad Yield',
+  title: 'Ethereum Yield',
 };
 ---
 
@@ -28,35 +28,35 @@ const metadata = {
       {
         variant: 'secondary',
         target: '_blank',
-        text: 'ShMonad',
-        href: 'https://shmonad.xyz/',
+        text: 'Ultra',
+        href: 'https://ultrayield.app/vaults',
         icon: 'tabler:link',
       },
       {
         variant: 'secondary',
         target: '_blank',
-        text: 'Capital',
-        href: 'https://yield.accountable.capital/',
+        text: 'Hermetica',
+        href: 'https://app.hermetica.fi/portfolio',
         icon: 'tabler:link',
       },
        {
         variant: 'secondary',
         target: '_blank',
-        text: 'Lagoon',
-        href: 'https://app.lagoon.finance/vault/143/0x0da39b740834090c146dc48357f6a435a1bb33b3?return=%2F&from=vaults',
+        text: 'Velar',
+        href: 'https://velar.com/',
         icon: 'tabler:link',
       },
        {
         variant: 'secondary',
         target: '_blank',
-        text: 'DeTrade',
-        href: 'https://app.detrade.fund/',
+        text: 'Asigna',
+        href: 'https://www.asigna.io/',
         icon: 'tabler:link',
       },
        {
         variant: 'secondary',
         target: '',
-        text: 'Yields',
+        text: 'Staking',
         href: '/bitcoin/btc.2',
         icon: 'tabler:circle-arrow-up-right',
       },
@@ -66,11 +66,11 @@ const metadata = {
     <Fragment slot="title">
        <span class="hidden sm:inline"></span>  <span
         class="text-accent dark:text-white"></span
-      > Monad Yield
+      > Solana Yield
       </Fragment>
    <Fragment slot="subtitle">
       <span class="hidden sm:inline">
-        <span class="font-semibold">Methods to Earn: </span> Yield can be earned through native staking
+        <span class="font-semibold">Note: </span>Solana (SOL) offers staking yields typically ranging from 5% to 8% APY.  
         </span
        
       >
@@ -80,11 +80,11 @@ const metadata = {
    <!-- TradingView Widget BEGIN -->
 <div class="tradingview-widget-container">
   <div class="tradingview-widget-container__widget"></div>
-  <div class="tradingview-widget-copyright"><a href="https://www.tradingview.com/markets/" rel="noopener nofollow" target="_blank"><span class="blue-text"></span></a><span class="trademark"></span></div>
+  <div class="tradingview-widget-copyright"><a href="https://www.tradingview.com/markets/" rel="noopener nofollow" target="_blank"><span class="white-text"></span></a><span class="trademark"></span></div>
   <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-market-overview.js" async>
   {
   "colorTheme": "dark",
-  "dateRange": "12M",
+  "dateRange": "1D",
   "locale": "en",
   "largeChartUrl": "",
   "isTransparent": true,
@@ -100,12 +100,12 @@ const metadata = {
   "symbolActiveColor": "rgba(41, 98, 255, 0.12)",
   "tabs": [
     {
-      "title": "Monad Yield",
+      "title": "Solana Yield",
       "symbols": [
         {
-          "s": "COINBASE:MONUSD",
+          "s": "COINBASE:SOLUSD",
           "d": "",
-          "base-currency-logoid": "crypto/XTVCMONAD",
+          "base-currency-logoid": "crypto/XTVCSOL",
           "currency-logoid": "country/US"
         }
       ],
@@ -123,11 +123,12 @@ const metadata = {
 </div>
 <!-- TradingView Widget END -->
 
-<script src="https://cdn.lordicon.com/lordicon.js"></script>
+ <script src="https://cdn.lordicon.com/lordicon.js"></script>
 <lord-icon
-    src="https://cdn.lordicon.com/pdpehbfl.json"
+    src="https://cdn.lordicon.com/gfpplxaf.json"
     trigger="hover"
-    colors="primary:#ffffff,secondary:#1663c7,quaternary:#9cc2f4,tertiary:#8930e8"
+    stroke="light"
+    colors="primary:#ffffff,secondary:#6c16c7,tertiary:#9cc2f4,quaternary:#ffffff,quinary:#3080e8"
     style="width:100%;height:500px">
 </lord-icon>
     </Fragment>
@@ -140,8 +141,8 @@ const metadata = {
   <!-- Features2 Widget ************** -->
 
   <Features2
-    title="Key Aspects of Monad Yield:"
-    subtitle="Monad yield refers to the returns earned from staking or participating in the ecosystem of Monad, a high-performance, parallelized Ethereum-compatible (EVM) Layer-1 blockchain. As of late 2025, staking rewards for the MON token are approximately 16% APR, with, for example, 30 AWC tokens provided monthly per 1,000 MON staked."
+    title="Key Solana Yield Options"
+    subtitle="Native Staking: Delegates SOL directly to a validator, usually through a wallet like Phantom or Ledger, maintaining full custody of keys."
   >
    
   </Features2>
